@@ -1,12 +1,25 @@
 .navigation{
+    
+    padding: 20px ;
     display: flex;
     background: @nav_bgcolor;
     justify-content:space-between;
     .nav_title{
+        width:50%;
         display: flex;
         img{
-            width: 20%;
+            width: 5%;
             height: 100%;
         }
+    }
+    nav{
+        width:50%;
+        padding: 10px 0 0 0;
+        display: flex;
+        justify-content:space-evenly;
+        a{
+            .nav-button(@nav_btcolor,black);
+        }
+    
     }
 }
