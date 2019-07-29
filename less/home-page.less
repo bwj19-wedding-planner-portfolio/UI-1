@@ -5,19 +5,35 @@
     background-size: cover;
    display:flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-around;
    align-items:center;
-   
-   h1{
+
+   .header_content_text{
+       width:60%;
+      h1{
+          font-size: 7rem;
        text-align: center;
    }
-   h4{
-       margin:50px,20px,20px 50px;
+    h4{
+        text-align: center;
+        padding:50px 20px 20px 50px;
+    } 
    }
    .header_button{
-       display:flex;
-       justify-content: space-between;
+       width:60%;
+       nav{
+        display: flex;
+        justify-content:space-between;
+        .header_button-1{
+            .custom-button(@planner_color,black);
+        }
+        .header_button-2{
+            .custom-button(@couples_color,black);
+        }
+       }
    }
+   
+   
 
 }   
       
