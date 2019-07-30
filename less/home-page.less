@@ -63,23 +63,29 @@
       
 .main_content{
     display:flex;
-    @media @phone{
+    @media @tablet{
         flex-direction: column;
     }
+    p{
+        text-align: center;
+    }
+    
     .planner_content{
         width:50vw;
         background:@planner_color;
-        @media @phone{
+        @media @tablet{
             width:100%;
         }
     }
     .couples_content{
         width:50vw;
         background:@couples_color;
-        @media @phone{
+        @media @tablet{
             width:100%;
         }
     }
+
+    
     h2{
         text-align: center;
         padding: 30px 0;
@@ -87,12 +93,15 @@
     p{
         padding:0 40px;
     }
+    h4{
+        padding:15px 0 10px 40px;
+    }
     .feature_list{
-        padding:20px 0;
+        padding:0 0 10px 0;
         display:flex;
         justify-content: space-evenly;
         li{
-            font-size:2.5rem;
+            font-size:2rem;
             list-style-type: circle;
         }
         @media @phone{
@@ -111,7 +120,7 @@
     }
     .feature_button_p{
         display:none;
-        @media @phone{
+        @media @tablet{
             display: block;
             width:80%;
             margin:5px auto 20px auto;
@@ -120,7 +129,7 @@
     }
     .feature_button_c{
         display:none;
-        @media @phone{
+        @media @tablet{
             display: block;
             width:80%;
             margin:5px auto 20px auto;
@@ -131,7 +140,7 @@
 .bottom_content{
     background: linear-gradient(90deg, @planner_color 50%, rgba(0, 0, 0, 0) 30%), @couples_color;
     padding: 10px 0 20px 0;
-    @media @phone{
+    @media @tablet{
         display:none;
     }
     .bottom_button{
