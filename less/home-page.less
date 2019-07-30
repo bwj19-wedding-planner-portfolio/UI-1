@@ -37,25 +37,23 @@
         } 
    }
    .header_button{
-       width:60%;
+       width:100%;
        @media @phone{
            width:100%;
            padding:0 0 20px 0;
        }
        nav{
         display: flex;
-        justify-content:space-between;
-        @media @phone{
-           justify-content: space-evenly;
+        justify-content:center;
+        
+        .header_button{
+            width:30%;
+            .custom-button(@nav_btcolor,black);
+            @media @phone{
+                width:50%;
+             }
         }
-        .header_button-1{
-            width:20%;
-            .custom-button(@planner_color,black);
-        }
-        .header_button-2{
-            width:20%;
-            .custom-button(@couples_color,black);
-        }
+        
        }
    }
    
@@ -112,19 +110,34 @@
         }
     }
     .feature_button_p{
-        margin:5px auto 20px 50px;
-        width:20%;
-        .custom-button(black,@couples_color);
+        display:none;
         @media @phone{
+            display: block;
             width:80%;
+            margin:5px auto 20px auto;
+            .custom-button(black,@couples_color);
         }
     }
     .feature_button_c{
-        margin:5px auto 20px 50px;
-        width:20%;
-        .custom-button(black,@planner_color);
+        display:none;
         @media @phone{
+            display: block;
             width:80%;
+            margin:5px auto 20px auto;
+            .custom-button(black,@planner_color);
         }
     }
+}
+.bottom_content{
+    background: linear-gradient(90deg, @planner_color 50%, rgba(0, 0, 0, 0) 30%), @couples_color;
+    padding: 10px 0 20px 0;
+    @media @phone{
+        display:none;
+    }
+    .bottom_button{
+        width:30%;
+        margin:0 auto ;
+        .custom-button(@nav_btcolor,black);
+         
+}
 }
