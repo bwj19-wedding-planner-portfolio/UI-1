@@ -431,3 +431,47 @@ footer {
   background-color: black;
   color: #FA80AF;
 }
+.about-main {
+  background: #DCB5F9;
+}
+.main-text {
+  border-bottom: 2px solid #7F7F7F;
+}
+.main-text h1 {
+  text-align: center;
+  padding: 15px 0;
+}
+.main-text p {
+  text-align: center;
+  padding: 20px 5% 40px 5%;
+}
+.main-people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main-people .people_img {
+  width: 60%;
+  margin: 5% 20%;
+}
+.main-people .github_icon {
+  width: 20%;
+  margin: 0 40% 10px 40%;
+}
+.people {
+  width: 25%;
+  margin: 3% 3%;
+  display: column;
+  border: 2px solid #ECECEC;
+  border-radius: 15px;
+  background: #97D1FD;
+}
+.people_info {
+  padding: 20px 0;
+}
+.people_info h4 {
+  text-align: center;
+}
+.people_info p {
+  text-align: center;
+}
