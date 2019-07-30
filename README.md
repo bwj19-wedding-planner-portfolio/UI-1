@@ -23,6 +23,7 @@ I am a UI developer in our team. I needed to build a marketing website for our t
 * Have buttons that link to the react application. 
 * The website should host on a hosting platform.
 * Describe the project in the website.
+* In about page, should included images of the members and links to their socials/Github.
 
 ## Team Members:
 * Min Huang / UI developer
