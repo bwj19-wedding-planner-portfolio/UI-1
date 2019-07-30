@@ -4,13 +4,13 @@
     display: flex;
     background: @nav_bgcolor;
     justify-content:space-between;
-    @media @phone{
+    @media @tablet{
         flex-direction: column;
     }
     .nav_title{
         width:50%;
         display: flex;
-        @media @phone{
+        @media @tablet{
             width:100%;
             justify-content: center;
         }
@@ -29,7 +29,7 @@
             width:20%;
             .custom-button(@nav_btcolor,black);
         }
-        @media @phone{
+        @media @tablet{
             width:100%;
             a{
                 width:35%;

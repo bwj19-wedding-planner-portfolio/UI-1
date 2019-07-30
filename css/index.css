@@ -178,7 +178,7 @@ img {
   background: #ECECEC;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .navigation {
     flex-direction: column;
   }
@@ -187,7 +187,7 @@ img {
   width: 50%;
   display: flex;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .navigation .nav_title {
     width: 100%;
     justify-content: center;
@@ -216,7 +216,7 @@ img {
   background-color: black;
   color: #FA80AF;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .navigation nav {
     width: 100%;
   }
