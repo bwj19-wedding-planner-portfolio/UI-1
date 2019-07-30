@@ -466,6 +466,16 @@ footer {
   border-radius: 15px;
   background: #97D1FD;
 }
+@media (max-width: 800px) {
+  .people {
+    width: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .people {
+    width: 80%;
+  }
+}
 .people_info {
   padding: 20px 0;
 }
