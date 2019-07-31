@@ -193,6 +193,11 @@ img {
     justify-content: center;
   }
 }
+@media (max-width: 500px) {
+  .navigation .nav_title h1 {
+    font-size: 3.5rem;
+  }
+}
 .navigation .nav_title img {
   width: 45px;
   height: 45px;
