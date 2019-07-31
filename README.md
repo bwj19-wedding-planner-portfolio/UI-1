@@ -25,11 +25,11 @@ I am a UI developer in our team. I needed to build a marketing website for our t
 * Describe the project in the website.
 * In about page, should included images of the members and links to their socials/Github.
 ## Team Members:
-Min Huang / UI developer
-Kyle Guerrero / UI developer
-Desiree Morris / Front End Engineer
-Dennis Mercado / Front End Engineer
-Laura Daugherty / Front End Engineer
-Noah Franco / Front End Engineer
-Christopher Carter / Backend Engineer
+* Min Huang / UI developer
+* Kyle Guerrero / UI developer
+* Desiree Morris / Front End Engineer
+* Dennis Mercado / Front End Engineer
+* Laura Daugherty / Front End Engineer
+* Noah Franco / Front End Engineer
+* Christopher Carter / Backend Engineer
 
