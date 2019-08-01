@@ -4,6 +4,9 @@ UI 1 repo
 ## Website:
 https://stoic-goldstine-846998.netlify.com
 
+## Wedding planner product canvas
+https://docs.google.com/document/d/1HNFdSaILXcbq09cYEpZD6-KrSPIrP0AWfLcTh0LEGIM/edit#
+
 ## Project Background:
 This project was from Lambda School's building week. Our team helped a weeding planner to create a platform, which can show off his amazing pictures and personal information.
 
