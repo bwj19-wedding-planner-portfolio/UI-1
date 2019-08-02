@@ -297,7 +297,7 @@ footer {
 @media (max-width: 800px) {
   .header_content {
     height: 100vh;
-    padding: 25vh 0 0 0;
+    padding: 20vh 0 0 0;
   }
 }
 @media (max-width: 500px) {
