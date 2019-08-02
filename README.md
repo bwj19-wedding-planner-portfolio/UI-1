@@ -36,3 +36,8 @@ I am a UI developer in our team. I needed to build a marketing website for our t
 * Noah Franco / Front End Engineer
 * Christopher Carter / Backend Engineer
 
+## Repo
+
+group: https://github.com/bwj19-wedding-planner-portfolio /
+/
+landing page: https://github.com/bwj19-wedding-planner-portfolio/UI-Min
