@@ -54,15 +54,17 @@
        nav{
         display: flex;
         justify-content:center;
-        
-        .header_button{
-            width:30%;
+        a{
+            width:20%;
             .custom-button(@nav_btcolor,black);
-            @media @phone{
-                width:50%;
-             }
         }
-        
+        @media @tablet{
+            width:100%;
+            a{
+                width:45%;
+            }
+        }
+    
        }
    }
    
@@ -130,19 +132,33 @@
     .feature_button_p{
         display:none;
         @media @tablet{
-            display: block;
-            width:80%;
+            display:block;
             margin:5px auto 20px auto;
-            .custom-button(black,@couples_color);
+            nav{
+                display: flex;
+                justify-content:center;
+                a{
+                    width:80%;
+                    .custom-button(black,@couples_color);
+                }
+            }
+               
         }
     }
     .feature_button_c{
         display:none;
         @media @tablet{
-            display: block;
-            width:80%;
+            display:block;
             margin:5px auto 20px auto;
-            .custom-button(black,@planner_color);
+            nav{
+                display: flex;
+                justify-content:center;
+                a{
+                    width:80%;
+                    .custom-button(black,@planner_color);
+                }
+            }
+               
         }
     }
 }
@@ -153,9 +169,17 @@
         display:none;
     }
     .bottom_button{
-        width:30%;
-        margin:0 auto ;
-        .custom-button(@nav_btcolor,black);
-         
-}
+        nav{
+         display: flex;
+         justify-content:center;
+         a{
+             width:50%;
+             .custom-button(@nav_btcolor,black);
+         }
+         @media @tablet{
+             display:none;
+         }
+     
+        }
+    }
 }

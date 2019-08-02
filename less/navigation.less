@@ -14,14 +14,16 @@
     .nav_title{
         width:50%;
         display: flex;
+        p{
+            font-size: 1rem;
+            text-align: center;
+        }
         @media @tablet{
             width:100%;
             justify-content: center;
         }
         @media @phone{
-            h1{
-                font-size: 3rem;
-            }
+            
             img{
                 width: 30px;
                 height: 30px;
@@ -41,7 +43,8 @@
         display: flex;
         justify-content:space-evenly;
         a{
-            width:20%;
+            width:30%;
+            height:40px;
             .custom-button(@nav_btcolor,black);
         }
         @media @tablet{

@@ -190,6 +190,10 @@ img {
   width: 50%;
   display: flex;
 }
+.navigation .nav_title p {
+  font-size: 1rem;
+  text-align: center;
+}
 @media (max-width: 800px) {
   .navigation .nav_title {
     width: 100%;
@@ -197,9 +201,6 @@ img {
   }
 }
 @media (max-width: 500px) {
-  .navigation .nav_title h1 {
-    font-size: 3rem;
-  }
   .navigation .nav_title img {
     width: 30px;
     height: 30px;
@@ -216,7 +217,8 @@ img {
   justify-content: space-evenly;
 }
 .navigation nav a {
-  width: 20%;
+  width: 30%;
+  height: 40px;
   background-color: #FA80AF;
   color: black;
   font-size: 1.6rem;
@@ -348,8 +350,8 @@ footer {
   display: flex;
   justify-content: center;
 }
-.header_content .header_button nav .header_button {
-  width: 30%;
+.header_content .header_button nav a {
+  width: 20%;
   background-color: #FA80AF;
   color: black;
   font-size: 1.6rem;
@@ -357,7 +359,7 @@ footer {
   border-radius: 5px;
   text-align: center;
 }
-.header_content .header_button nav .header_button:hover {
+.header_content .header_button nav a:hover {
   background-color: black;
   color: #FA80AF;
   animation: shake 0.8s;
@@ -398,9 +400,12 @@ footer {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
-@media (max-width: 500px) {
-  .header_content .header_button nav .header_button {
-    width: 50%;
+@media (max-width: 800px) {
+  .header_content .header_button nav {
+    width: 100%;
+  }
+  .header_content .header_button nav a {
+    width: 45%;
   }
 }
 .main_content {
@@ -473,8 +478,14 @@ footer {
 @media (max-width: 800px) {
   .main_content .feature_button_p {
     display: block;
-    width: 80%;
     margin: 5px auto 20px auto;
+  }
+  .main_content .feature_button_p nav {
+    display: flex;
+    justify-content: center;
+  }
+  .main_content .feature_button_p nav a {
+    width: 80%;
     background-color: black;
     color: #DCB5F9;
     font-size: 1.6rem;
@@ -482,7 +493,7 @@ footer {
     border-radius: 5px;
     text-align: center;
   }
-  .main_content .feature_button_p:hover {
+  .main_content .feature_button_p nav a:hover {
     background-color: #DCB5F9;
     color: black;
     animation: shake 0.8s;
@@ -530,8 +541,14 @@ footer {
 @media (max-width: 800px) {
   .main_content .feature_button_c {
     display: block;
-    width: 80%;
     margin: 5px auto 20px auto;
+  }
+  .main_content .feature_button_c nav {
+    display: flex;
+    justify-content: center;
+  }
+  .main_content .feature_button_c nav a {
+    width: 80%;
     background-color: black;
     color: #97D1FD;
     font-size: 1.6rem;
@@ -539,7 +556,7 @@ footer {
     border-radius: 5px;
     text-align: center;
   }
-  .main_content .feature_button_c:hover {
+  .main_content .feature_button_c nav a:hover {
     background-color: #97D1FD;
     color: black;
     animation: shake 0.8s;
@@ -590,9 +607,12 @@ footer {
     display: none;
   }
 }
-.bottom_content .bottom_button {
-  width: 30%;
-  margin: 0 auto ;
+.bottom_content .bottom_button nav {
+  display: flex;
+  justify-content: center;
+}
+.bottom_content .bottom_button nav a {
+  width: 50%;
   background-color: #FA80AF;
   color: black;
   font-size: 1.6rem;
@@ -600,7 +620,7 @@ footer {
   border-radius: 5px;
   text-align: center;
 }
-.bottom_content .bottom_button:hover {
+.bottom_content .bottom_button nav a:hover {
   background-color: black;
   color: #FA80AF;
   animation: shake 0.8s;
@@ -639,6 +659,11 @@ footer {
   }
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+@media (max-width: 800px) {
+  .bottom_content .bottom_button nav {
+    display: none;
   }
 }
 .about-header {
